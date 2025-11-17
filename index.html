@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MU 2025 Prediction Pool</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom styles for the metallic/glamour look */
+        .gold-glow {
+            text-shadow: 0 0 5px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 215, 0, 0.3);
+        }
+        .text-gold {
+            color: #D4AF37; /* Rich Gold */
+        }
+        .bg-deep-navy {
+            background-color: #0d111c; /* Very dark, elegant navy */
+        }
+        .font-sans {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom gradient for the button */
+        .btn-gold-gradient {
+            background: linear-gradient(180deg, #FFD700 0%, #B8860B 100%);
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+            transition: all 0.3s ease;
+        }
+        .btn-gold-gradient:hover {
+            background: linear-gradient(180deg, #FFE87C 0%, #D4AF37 100%);
+            box-shadow: 0 6px 20px rgba(255, 215, 0, 0.6);
+            transform: translateY(-2px);
+        }
+        /* Table styles for elegant separation */
+        .scoring-table th, .scoring-table td {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .scoring-table th {
+            color: #D4AF37;
+        }
+    </style>
+    
+    <script>
+        // Customizing Tailwind to recognize the font setup
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'mu-navy': '#0d111c',
+                        'mu-gold': '#D4AF37',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-deep-navy font-sans text-gray-200 min-h-screen p-4 sm:p-8">
+
+    <div class="max-w-3xl mx-auto rounded-xl shadow-2xl p-6 md:p-10 border border-mu-gold/20">
+
+        <!-- Header and Title -->
+        <header class="text-center mb-10">
+            <!-- Crown SVG for a Miss Universe visual element -->
+            <svg class="mx-auto w-12 h-12 text-mu-gold gold-glow mb-2" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-mu-gold gold-glow mb-2">
+                MU 2025 Prediction Pool
+            </h1>
+            <p class="text-xl sm:text-2xl font-light text-gray-300">
+                The Jewelmer Crown Awaits Your Verdict
+            </p>
+        </header>
+
+        <!-- Introduction -->
+        <section class="mb-12 border-l-4 border-mu-gold/70 pl-4 py-2">
+            <p class="text-lg leading-relaxed">
+                The Miss Universe 2025 competition is right around the corner, and the stakes have never been higher! From stage presence to the final interview, every delegate brings her A-game.
+            </p>
+            <p class="text-lg leading-relaxed mt-4 font-semibold text-mu-gold">
+                Think you can predict who will walk away with the coveted Jewelmer crown? Now is your chance to prove your pageant expertise and get in on the action!
+            </p>
+        </section>
+
+        <!-- Mechanics Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 border-b border-mu-gold/50 pb-2 text-gray-100">
+                <span class="text-mu-gold mr-2">&#9733;</span> Mechanics
+            </h2>
+            <p class="text-gray-300 mb-4 italic">Each player predicts the final lineup across five crucial rounds:</p>
+            
+            <ul class="space-y-2 list-none pl-0 text-lg">
+                <li class="flex items-center"><span class="text-mu-gold mr-3">👑</span> Top 30 (Quarterfinalists)</li>
+                <li class="flex items-center"><span class="text-mu-gold mr-3">👑</span> Top 12 (Semifinalists)</li>
+                <li class="flex items-center"><span class="text-mu-gold mr-3">👑</span> Top 5 (Finalists)</li>
+                <li class="flex items-center"><span class="text-mu-gold mr-3">👑</span> Top 3</li>
+                <li class="flex items-center"><span class="text-mu-gold mr-3">👑</span> Winner</li>
+            </ul>
+        </section>
+
+        <!-- Scoring System Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 border-b border-mu-gold/50 pb-2 text-gray-100">
+                <span class="text-mu-gold mr-2">&#9905;</span> Scoring System
+            </h2>
+            
+            <div class="overflow-x-auto rounded-lg border border-mu-gold/30 shadow-lg">
+                <table class="min-w-full scoring-table text-sm md:text-base">
+                    <thead class="bg-mu-gold/10">
+                        <tr>
+                            <th scope="col" class="px-3 py-3 text-left font-semibold tracking-wider">Prediction Category</th>
+                            <th scope="col" class="px-3 py-3 text-left font-semibold tracking-wider">Points Awarded</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-mu-gold/10">
+                        <tr class="hover:bg-mu-gold/5">
+                            <td class="px-3 py-3 whitespace-nowrap">Correct Top 30 pick</td>
+                            <td class="px-3 py-3 whitespace-nowrap"><span class="font-bold text-mu-gold">1 point</span></td>
+                        </tr>
+                        <tr class="hover:bg-mu-gold/5">
+                            <td class="px-3 py-3 whitespace-nowrap">Correct Top 12 pick</td>
+                            <td class="px-3 py-3 whitespace-nowrap"><span class="font-bold text-mu-gold">2 points</span></td>
+                        </tr>
+                        <tr class="hover:bg-mu-gold/5">
+                            <td class="px-3 py-3 whitespace-nowrap">Correct Top 5 pick</td>
+                            <td class="px-3 py-3 whitespace-nowrap"><span class="font-bold text-mu-gold">3 points</span> (Extra 2 points if predicted accurately)</td>
+                        </tr>
+                        <tr class="hover:bg-mu-gold/5 bg-mu-gold/10">
+                            <td class="px-3 py-3 whitespace-nowrap font-semibold">Correct Winner</td>
+                            <td class="px-3 py-3 whitespace-nowrap"><span class="font-bold text-mu-gold text-lg">5 points</span></td>
+                        </tr>
+                        <tr class="hover:bg-mu-gold/5">
+                            <td class="px-3 py-3 whitespace-nowrap">Correct 1st Runner-up</td>
+                            <td class="px-3 py-3 whitespace-nowrap"><span class="font-bold text-mu-gold">3 points</span></td>
+                        </tr>
+                        <tr class="hover:bg-mu-gold/5">
+                            <td class="px-3 py-3 whitespace-nowrap">Correct 2nd Runner-up</td>
+                            <td class="px-3 py-3 whitespace-nowrap"><span class="font-bold text-mu-gold">2 points</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="text-center">
+            <p class="text-lg font-bold text-gray-100 mb-6">
+                Submit your definitive Top 30 picks now
+            </p>
+            
+            <a href="https://forms.gle/FAajAaMTEPwYWQnq7" target="_blank" class="inline-block px-12 py-4 text-lg font-extrabold uppercase rounded-full tracking-wider text-mu-navy btn-gold-gradient transition-all duration-300 ease-in-out">
+                Submit Your Picks &nbsp; &rarr;
+            </a>
+
+            <p class="mt-4 text-sm text-gray-500">
+                You will be redirected to the official entry form.
+            </p>
+        </section>
+
+    </div>
+
+</body>
+</html>
